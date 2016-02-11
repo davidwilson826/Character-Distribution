@@ -44,5 +44,8 @@ import string
 text = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "'+text+'" is: ')
 
-print(string.ascii_lowercase)
 let = 26
+maxfreq = 
+
+while let > 0:
+    
