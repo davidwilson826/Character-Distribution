@@ -60,5 +60,6 @@ while freq > 0:
     while letnum > 0:
         if letfreq == freq:
             print(let*freq)
-        let -= 1
+        letnum -= 1
+    letnum = 26
     freq -= 1
