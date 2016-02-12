@@ -1,6 +1,6 @@
 """
 distribution.py
-Author: <your name here>
+Author: David Wilson
 Credit: http://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python
 
 Assignment:
