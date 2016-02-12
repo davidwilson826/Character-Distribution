@@ -49,9 +49,14 @@ maxfreq = 0
 let = string.ascii_lowercase[-letnum]
 letfreq = text.count(let)
 
+while letnum > 0:
+    if letfreq > freq:
+        freq = letfreq
+    letnum -= 1
+
 letnum = 26
 
-while let > 0:
+while freq > 0:
     while letnum > 0:
         if letfreq == freq:
             print(let*freq)
