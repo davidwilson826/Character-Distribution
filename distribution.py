@@ -41,8 +41,9 @@ Notice about this example:
 
 import string
 
-text = input("Please enter a string of text (the bigger the better): ").lower()
-print('The distribution of characters in "'+text+'" is: ')
+textorig = input("Please enter a string of text (the bigger the better): ")
+text = textorig.lower()
+print('The distribution of characters in "'+textorig+'" is: ')
 
 letnum = 26
 freq = 0
