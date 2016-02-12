@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: <your name here>
-Credit: <list sources used, if any>
+Credit: http://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python
 
 Assignment:
 
@@ -41,7 +41,7 @@ Notice about this example:
 
 import string
 
-text = input("Please enter a string of text (the bigger the better): ")
+text = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "'+text+'" is: ')
 
 letnum = 26
