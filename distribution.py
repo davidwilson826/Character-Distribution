@@ -44,8 +44,16 @@ import string
 text = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "'+text+'" is: ')
 
-let = 26
-maxfreq = 
+letnum = 26
+maxfreq = 0
+let = string.ascii_lowercase[-letnum]
+letfreq = text.count(let)
+
+letnum = 26
 
 while let > 0:
-    
+    while letnum > 0:
+        if letfreq == freq:
+            print(let*freq)
+        let -= 1
+    freq -= 1
